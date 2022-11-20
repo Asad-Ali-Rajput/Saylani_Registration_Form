@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Registration Form</title>
+    <link href="Saylani_Form_Stylesheet.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body class="main">
+    <img class="logo" src="saylani_Logo.png" alt="image-Not-Found" />
+    <h1 class="main_Heading">Student Registration Form</h1>
+    <div class="main_Body">
+        <table cellpadding="10">
+            <form action="">
+                <tr>
+                    <td><label for="First Name">FIRST NAME</label></td>
+                    <td><input class="input-field" type="text" name="First Name" placeholder="Enter First Name" maxlength="30" />
+                    <label for="First Name">(max 30 characters a-z and A-Z)</label></td>
+                </tr>
+                <tr>
+                    <td><label for="Last Name">LAST NAME</label></td>
+                    <td><input class="input-field" type="text" name="Last Name" placeholder="Enter Last Name" maxlength="30" />
+                    <label for="Last Name">(max 30 characters a-z and A-Z)</label></td>
+                </tr>
+                <tr>
+                    <td><label for="Date of Birth">DATE OF BIRTH</label></td>
+                    <td><input class="input-field" type="date" name="Date of Birth" /></td>
+                </tr>
+                <tr>
+                    <td><label for="Email Id">EMAIL ID</label></td>
+                    <td><input class="input-field" type="email" name="Email Id" placeholder="Enter Email Address" /></td>
+                </tr>
+                <tr>
+                    <td><label for="Number">MOBILE NUMBER</label></td>
+                    <td><input class="input-field" type="number" name="number" placeholder="Enter Phone Number" maxlength="" />
+                    <label for="number">(10 digit number)</label></td>
+                </tr>
+                <tr>
+                    <td><label for="">GENDER</label></td>
+                    <td><input type="radio" name="Gneder" />
+                    <label for="">MALE</label>
+                    <input type="radio" name="Gender" />
+                    <label for="">FEMALE</label></td>
+                </tr>
+                <tr>
+                    <td><label for="">ADDRESS</label></td>
+                    <td><textarea type="text" rows="4" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">CITY</label></td>
+                    <td><select name="City" id="">
+                        <option>Nawabshah</option>
+                        <option>Karachi</option>
+                        <option>Hyderabad</option>
+                        <option>Mirpurkhas</option>
+                        <option>Sukkur</option>
+                        <option>Ghotki</option>
+                        <option>Khairpur</option>
+                        <option>Ranipur</option>
+                        <option>Gambat</option>
+                        <option>Larkana</option>
+                        <option>Moro</option>
+                        <option>Mehrabpur</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="Pin">PIN CODE</label></td>
+                    <td><input type="text" name="Pin" placeholder="Enter Pin Code" />
+                    <label for="First Name">(6 digit number)</label></td>
+                </tr>
+                <tr>
+                    <td><label for="State">STATE</label></td>
+                    <td><select name="State" id="">
+                        <option value="">Sindh</option>
+                        <option value="">Punjab</option>
+                        <option value="">KPK</option>
+                        <option value="">Balochistan</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="Country">COUNTRY</label></td>
+                    <td><select name="Country" id="">
+                        <option value="">Pakistan</option>
+                        <option value="">Saudi Arabia</option>
+                        <option value="">Bangladesh</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="Hobbies">HOBBIES</label></td>
+                    <td><label for="Drawing">Drawing</label>
+                    <input type="checkbox" name="HobbyDrawing" value="Drawing" />
+                    <label for="Singing">Singing</label>
+                    <input type="checkbox" name="HobbySinging" value="Singing" />
+                    <label for="Dancing">Dancing</label>
+                    <input type="checkbox" name="HobbyDancing" value="Dancing" />
+                    <label for="Sketching">Sketching</label>
+                    <input type="checkbox" name="HobbyCooking" value="Cooking" />
+                    <label for="Other">Others</label>
+                    <input type="text" name="Hobbies" placeholder="Enter Hobbies" maxlength="50" /></td>
+                </tr>
+                <td>QUALIFICATION</td>
+                <td>
+                    <table class="qualification-table">
+                        <tr>
+                            <td><b>SI.No.</b></td>
+                            <td><b>Examination</b></td>
+                            <td align="center"><b>Board</b></td>
+                            <td align="center"><b>Percentage</b></td>
+                            <td align="center"><b>Year of passing</b></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>Class X</td>
+                            <td>
+                                <input type="text" name="bor" maxlength="10">
+                            </td>
+                            <td>
+                                <input type="text" name="percentage">
+                            </td>
+                            <td>
+                                <input type="text" name="passing">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>Class XII</td>
+                            <td>
+                                <input type="text" name="board" maxlength="10">
+                            </td>
+                            <td>
+                                <input type="text" name="per">
+                            </td>
+                            <td>
+                                <input type="text" name="pass">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>Graduation</td>
+                            <td>
+                                <input type="text" name="bora" maxlength="10">
+                            </td>
+                            <td>
+                                <input type="text" name="percen">
+                            </td>
+                            <td>
+                                <input type="text" name="pas">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4
+                            </td>
+                            <td>Masters</td>
+                            <td>
+                                <input type="text" name="bo" maxlength="10">
+                            </td>
+                            <td>
+                                <input type="text" name="pe">
+                            </td>
+                            <td>
+                                <input type="text" name="pasing">
+                            </td>
+                        </tr>
+                </td>
+            <tr>
+                <td></td>
+                <td></td>
+                <td align="center">(10 char max)</td>
+                <td align="center">upto 2 decimal</td>
+                <td></td>
+            </tr>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        <tr>
+            <td>COURSES<br/>APPLIED FOR</td>
+            <td>
+                BCA
+                <input type="radio" name="CourseBCA" value="BCA">
+                B.A
+                <input type="radio" name="CourseBCom" value="B.Com">
+                B.Sc
+                <input type="radio" name="CourseBSc" value="B.Sc">
+                B.Com
+                <input type="radio" name="CourseBA" value="B.A">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <a href="Submitted.html"><input type="button" value="Submit"></a>
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+            </form>
+        </table>
+    </div>
+</body>
+
+</html>
